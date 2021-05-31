@@ -1,66 +1,10 @@
-# ECS657U/ECS7003P - Group U
+# Unity Game Development Project
+## 'CyberShooter'
+This project was part of a third-year university games development module. We spent 12 weeks learning Unity, and about 4-6 weeks actually developing the game.
+### About the game
+The game is an arena-shooter inspired run-and-gun FPS that requires players to defeat waves of enemies and collect power cells in order to progress through the levels. Each level has a certain number of waves that the player must defeat, and a certain amount of hidden power cells they must collect in order to advance. Each level also features a new weapon unlock that the player can use. The player initially starts off with the Plasma Pistol and can acquire the Machine Gun and the Shotgun when reaching Level 2 and Level 3, respectively.
 
-## Asset References: 
-[Font Used: AquireBold-8Ma60](https://fontsme.com/aquire.font)  
+There are various types of enemies in the game, including melee units that follow the player and attempt to attack at close range, as well as stationary gatling turret enemies that will only engage the player when they are within range. Each level features new, visually distinct enemies. Each wave for each level also presents tougher enemies for the player to fight.
 
-## Audio Used: 
-[Enemy Attack](https://www.soundboard.com/sb/sound/897791)  
-[Item Pickup](http://freesoundeffect.net/sound/pickup-generic-pickup-sfx-collection-item-2-sound-effect)  
-[Laser Shoot](https://freesound.org/people/MusicLegends/sounds/344310/)  
-[Footstep sounds](https://assetstore.unity.com/packages/audio/sound-fx/classic-footstep-sfx-173668)  
-[Jump Sound](https://assetstore.unity.com/packages/audio/sound-fx/voices/attack-jump-hit-damage-human-sounds-32785)  
-[Machine Gun](http://soundbible.com/1804-M4A1-Single.html)  
-[Shotgun](http://soundbible.com/1960-Shotgun-Old-School.html)  
-[Dry Fire](http://soundbible.com/1405-Dry-Fire-Gun.html)  
-
-## First Person Controller 
-[Tutorial for Movement](https://www.youtube.com/watch?v=_QajrabyTJc)  
-[MouseLook script](https://assetstore.unity.com/packages/tools/input-management/mini-first-person-controller-174710)  
-[Camera Shake](https://gist.github.com/ftvs/5822103)
-
-## Weapon 
-[Plasma Pistol Model](https://assetstore.unity.com/packages/3d/props/guns/sci-fi-futuristic-hand-gun-90249)  
-[Machine Gun Model](https://assetstore.unity.com/packages/3d/props/guns/sci-fi-gun-light-87916)  
-[Shotgun Model](https://assetstore.unity.com/packages/3d/props/guns/shotgun-26685)  
-[Weapon Swaying method](https://www.youtube.com/watch?v=6hyQ2rPkMDY&t=125s)  
-[Weapon reload animating method](https://www.youtube.com/watch?v=SyGgAwBydTw)  
-
-## Enemies
-[Boss](https://assetstore.unity.com/packages/3d/characters/robots/robot-metallic-humanoid-171295)  
-[Robo Enemies](https://assetstore.unity.com/packages/3d/characters/robots/tiny-robots-pack-98930)  
-[Gatling Gun Turret](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-barrel-175837)  
-
-## Menus
-[Main Menu Tutorial](https://www.youtube.com/watch?v=zc8ac_qUXQY&t=11s)  
-[Pause Menu Tutorial](https://www.youtube.com/watch?v=JivuXdrIHK0)  
-
-## Path Finding
-[Path Finding Algorithm is referenced from this video](https://www.youtube.com/watch?v=UjkSFoLxesw)  
-[Nav Mesh Components package is used for path finding, and for baking walkable areas (for enemies) in the environment.](https://github.com/Unity-Technologies/NavMeshComponents)  
-
-## Item Pickup
-[Key Spawning](https://www.youtube.com/watch?v=IXDvl8aTM_M)  
-[Energy Cell](https://assetstore.unity.com/packages/3d/environments/sci-fi/energy-cells-free-166830)  
-[Ammo Box](https://assetstore.unity.com/packages/3d/props/weapons/ammo-crate-wood-ammunition-box-90071)  
-[Health Pickup](https://assetstore.unity.com/packages/3d/props/tools/survival-game-tools-139872)  
-
-## Environment
-[Modular Sci-fi Kit](https://assetstore.unity.com/packages/3d/environments/3d-free-modular-kit-85732)  
-
-## Environment Props
-[Sci-fi Barrel](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-barrel-175837)  
-[Sci-fi Objects](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-objects-pack-1-170478)  
-[3D Sci-fi ATM](https://assetstore.unity.com/packages/3d/environments/sci-fi/atm-95057)  
-
-## Shaders and other VFX
-[Shaders](https://assetstore.unity.com/packages/vfx/shaders/ultimate-10-shaders-168611)  
-[Particle Collection](https://assetstore.unity.com/packages/vfx/particles/sherbb-s-particle-collection-170798#content)  
-
-Game Controller  
-Enemy Controller (Except path finding)  
-Player Stat Builder  
-and all else are written from scratch, using the default Unity built in packages.  
-
-
-
-
+##### Play it here:
+[itch.io](https://kaxell.itch.io/cybershooter)  
